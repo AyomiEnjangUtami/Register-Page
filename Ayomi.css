@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5ff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to top, rgb(245, 195, 238), rgb(247, 245, 245));
+}
+
+.card-container {
+    background: linear-gradient(to top, rgb(154, 136, 212), rgb(236, 159, 194));
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    border-radius: 15px;
+    text-align: center;
+    width: 320px;
+    box-shadow: rgb(8, 8, 8) 5px 5px 12px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:  15px;
+}
+
+label {
+    width: 45%;
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #060400;
+    box-shadow: black 5px 5px 12px;
+}
+
+button {
+    background-color: rgb(234, 166, 235);
+    border: none;
+    padding: 10px  125px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    box-shadow: black 5px 5px 12px;
+}
+
+button:hover {
+    background-color: rgb(172, 83, 154); 
+}
+
+
+p {
+    margin-top: 15px;
+}
